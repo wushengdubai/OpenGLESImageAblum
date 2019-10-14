@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1402AD6234F04DC00553C0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402AD5234F04DC00553C0D /* AppDelegate.m */; };
+		D1402ADC234F04DC00553C0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402ADB234F04DC00553C0D /* ViewController.m */; };
+		D1402ADF234F04DC00553C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1402ADD234F04DC00553C0D /* Main.storyboard */; };
+		D1402AE1234F04DE00553C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1402AE0234F04DE00553C0D /* Assets.xcassets */; };
+		D1402AE4234F04DE00553C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1402AE2234F04DE00553C0D /* LaunchScreen.storyboard */; };
+		D1402AE7234F04DE00553C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402AE6234F04DE00553C0D /* main.m */; };
+		D1402AF8234F05EE00553C0D /* 3 in Resources */ = {isa = PBXBuildFile; fileRef = D1402AF4234F05EE00553C0D /* 3 */; };
+		D1402AF9234F05EE00553C0D /* 2 in Resources */ = {isa = PBXBuildFile; fileRef = D1402AF5234F05EE00553C0D /* 2 */; };
+		D1402AFA234F05EE00553C0D /* 1 in Resources */ = {isa = PBXBuildFile; fileRef = D1402AF6234F05EE00553C0D /* 1 */; };
+		D1402AFB234F05EE00553C0D /* 4 in Resources */ = {isa = PBXBuildFile; fileRef = D1402AF7234F05EE00553C0D /* 4 */; };
+		D1402AFE234F066E00553C0D /* TPDisplayPreview.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1402AFD234F066E00553C0D /* TPDisplayPreview.mm */; };
+		D1402B18234F0D3600553C0D /* TPProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402B17234F0D3600553C0D /* TPProgram.m */; };
+		D1402B1B234F0D4C00553C0D /* TPImageContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402B1A234F0D4C00553C0D /* TPImageContext.m */; };
+		D1402B1E234F0D5900553C0D /* TPImageFramebuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402B1D234F0D5900553C0D /* TPImageFramebuffer.m */; };
+		D1402B21234F0D6C00553C0D /* TPImageFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1402B20234F0D6C00553C0D /* TPImageFilter.mm */; };
+		D1402B24234F0D9A00553C0D /* TPImageVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402B23234F0D9A00553C0D /* TPImageVideo.m */; };
+		D1402B27234F0DA600553C0D /* TPImagePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402B26234F0DA600553C0D /* TPImagePicture.m */; };
+		D1402B36234F3BAC00553C0D /* TPImageConstShaderString.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402B35234F3BAC00553C0D /* TPImageConstShaderString.m */; };
+		D1402B422351B76D00553C0D /* TPImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1402B412351B76D00553C0D /* TPImageModel.m */; };
+		D1402B4523542BD300553C0D /* TPImageTestView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1402B4423542BD300553C0D /* TPImageTestView.mm */; };
+		D1402B5C2354562600553C0D /* LPRGPUAnimateAttr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1402B482354562600553C0D /* LPRGPUAnimateAttr.cpp */; };
+		D1402B5D2354562600553C0D /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1402B4A2354562600553C0D /* utils.cpp */; };
+		D1402B5E2354562600553C0D /* AnimationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1402B4C2354562600553C0D /* AnimationMatrix.cpp */; };
+		D1402B5F2354562600553C0D /* BasicTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1402B4D2354562600553C0D /* BasicTools.cpp */; };
+		D1402B602354562600553C0D /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = D1402B4F2354562600553C0D /* GLESMath.c */; };
+		D1402B612354562600553C0D /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = D1402B502354562600553C0D /* cJSON.c */; };
+		D1402B622354562600553C0D /* Parse_AE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1402B542354562600553C0D /* Parse_AE.cpp */; };
+		D1402B632354562600553C0D /* LPRGPUImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1402B592354562600553C0D /* LPRGPUImage.cpp */; };
+		D1402B642354562600553C0D /* GLProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1402B5A2354562600553C0D /* GLProgram.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1402AD1234F04DC00553C0D /* TPImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1402AD4234F04DC00553C0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1402AD5234F04DC00553C0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1402ADA234F04DC00553C0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1402ADB234F04DC00553C0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1402ADE234F04DC00553C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1402AE0234F04DE00553C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1402AE3234F04DE00553C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1402AE5234F04DE00553C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1402AE6234F04DE00553C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1402AF4234F05EE00553C0D /* 3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 3; sourceTree = "<group>"; };
+		D1402AF5234F05EE00553C0D /* 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 2; sourceTree = "<group>"; };
+		D1402AF6234F05EE00553C0D /* 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1; sourceTree = "<group>"; };
+		D1402AF7234F05EE00553C0D /* 4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 4; sourceTree = "<group>"; };
+		D1402AFC234F066E00553C0D /* TPDisplayPreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPDisplayPreview.h; sourceTree = "<group>"; };
+		D1402AFD234F066E00553C0D /* TPDisplayPreview.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TPDisplayPreview.mm; sourceTree = "<group>"; };
+		D1402B16234F0D3600553C0D /* TPProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPProgram.h; sourceTree = "<group>"; };
+		D1402B17234F0D3600553C0D /* TPProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPProgram.m; sourceTree = "<group>"; };
+		D1402B19234F0D4C00553C0D /* TPImageContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImageContext.h; sourceTree = "<group>"; };
+		D1402B1A234F0D4C00553C0D /* TPImageContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPImageContext.m; sourceTree = "<group>"; };
+		D1402B1C234F0D5900553C0D /* TPImageFramebuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImageFramebuffer.h; sourceTree = "<group>"; };
+		D1402B1D234F0D5900553C0D /* TPImageFramebuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPImageFramebuffer.m; sourceTree = "<group>"; };
+		D1402B1F234F0D6C00553C0D /* TPImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImageFilter.h; sourceTree = "<group>"; };
+		D1402B20234F0D6C00553C0D /* TPImageFilter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TPImageFilter.mm; sourceTree = "<group>"; };
+		D1402B22234F0D9A00553C0D /* TPImageVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImageVideo.h; sourceTree = "<group>"; };
+		D1402B23234F0D9A00553C0D /* TPImageVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPImageVideo.m; sourceTree = "<group>"; };
+		D1402B25234F0DA600553C0D /* TPImagePicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImagePicture.h; sourceTree = "<group>"; };
+		D1402B26234F0DA600553C0D /* TPImagePicture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPImagePicture.m; sourceTree = "<group>"; };
+		D1402B28234F0E4800553C0D /* TPImageUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImageUtils.h; sourceTree = "<group>"; };
+		D1402B34234F3BAC00553C0D /* TPImageConstShaderString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImageConstShaderString.h; sourceTree = "<group>"; };
+		D1402B35234F3BAC00553C0D /* TPImageConstShaderString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPImageConstShaderString.m; sourceTree = "<group>"; };
+		D1402B402351B76D00553C0D /* TPImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImageModel.h; sourceTree = "<group>"; };
+		D1402B412351B76D00553C0D /* TPImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPImageModel.m; sourceTree = "<group>"; };
+		D1402B4323542BD300553C0D /* TPImageTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPImageTestView.h; sourceTree = "<group>"; };
+		D1402B4423542BD300553C0D /* TPImageTestView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TPImageTestView.mm; sourceTree = "<group>"; };
+		D1402B462354562600553C0D /* LPRGPUImage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LPRGPUImage.hpp; sourceTree = "<group>"; };
+		D1402B472354562600553C0D /* LPRGPUAnimateAttr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LPRGPUAnimateAttr.hpp; sourceTree = "<group>"; };
+		D1402B482354562600553C0D /* LPRGPUAnimateAttr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LPRGPUAnimateAttr.cpp; sourceTree = "<group>"; };
+		D1402B4A2354562600553C0D /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		D1402B4B2354562600553C0D /* BasicTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTools.h; sourceTree = "<group>"; };
+		D1402B4C2354562600553C0D /* AnimationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationMatrix.cpp; sourceTree = "<group>"; };
+		D1402B4D2354562600553C0D /* BasicTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicTools.cpp; sourceTree = "<group>"; };
+		D1402B4E2354562600553C0D /* cJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJSON.h; sourceTree = "<group>"; };
+		D1402B4F2354562600553C0D /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		D1402B502354562600553C0D /* cJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cJSON.c; sourceTree = "<group>"; };
+		D1402B512354562600553C0D /* AE_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AE_struct.h; sourceTree = "<group>"; };
+		D1402B522354562600553C0D /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
+		D1402B532354562600553C0D /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		D1402B542354562600553C0D /* Parse_AE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parse_AE.cpp; sourceTree = "<group>"; };
+		D1402B552354562600553C0D /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		D1402B562354562600553C0D /* AnimationMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AnimationMatrix.hpp; sourceTree = "<group>"; };
+		D1402B572354562600553C0D /* Parse_AE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parse_AE.h; sourceTree = "<group>"; };
+		D1402B582354562600553C0D /* GLProgram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GLProgram.hpp; sourceTree = "<group>"; };
+		D1402B592354562600553C0D /* LPRGPUImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LPRGPUImage.cpp; sourceTree = "<group>"; };
+		D1402B5A2354562600553C0D /* GLProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLProgram.cpp; sourceTree = "<group>"; };
+		D1402B5B2354562600553C0D /* AEConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1402ACE234F04DC00553C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1402AC8234F04DC00553C0D = {
+			isa = PBXGroup;
+			children = (
+				D1402AD3234F04DC00553C0D /* TPImage */,
+				D1402AD2234F04DC00553C0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1402AD2234F04DC00553C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1402AD1234F04DC00553C0D /* TPImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1402AD3234F04DC00553C0D /* TPImage */ = {
+			isa = PBXGroup;
+			children = (
+				D1402AEF234F051E00553C0D /* TPImage */,
+				D1402AF0234F052D00553C0D /* Others */,
+				D1402AF3234F05C900553C0D /* ReSources */,
+			);
+			path = TPImage;
+			sourceTree = "<group>";
+		};
+		D1402AED234F04FF00553C0D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D1402B22234F0D9A00553C0D /* TPImageVideo.h */,
+				D1402B23234F0D9A00553C0D /* TPImageVideo.m */,
+				D1402B25234F0DA600553C0D /* TPImagePicture.h */,
+				D1402B26234F0DA600553C0D /* TPImagePicture.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D1402AEE234F050C00553C0D /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				D1402B1F234F0D6C00553C0D /* TPImageFilter.h */,
+				D1402B20234F0D6C00553C0D /* TPImageFilter.mm */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		D1402AEF234F051E00553C0D /* TPImage */ = {
+			isa = PBXGroup;
+			children = (
+				D1402AF1234F059A00553C0D /* Base */,
+				D1402AED234F04FF00553C0D /* Sources */,
+				D1402AEE234F050C00553C0D /* Filter */,
+				D1402AF2234F05B100553C0D /* Output */,
+				D1402B15234F0CCB00553C0D /* Utils */,
+				D1402AFF234F0ADA00553C0D /* AE */,
+			);
+			path = TPImage;
+			sourceTree = "<group>";
+		};
+		D1402AF0234F052D00553C0D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D1402AD4234F04DC00553C0D /* AppDelegate.h */,
+				D1402AD5234F04DC00553C0D /* AppDelegate.m */,
+				D1402ADA234F04DC00553C0D /* ViewController.h */,
+				D1402ADB234F04DC00553C0D /* ViewController.m */,
+				D1402ADD234F04DC00553C0D /* Main.storyboard */,
+				D1402AE0234F04DE00553C0D /* Assets.xcassets */,
+				D1402AE2234F04DE00553C0D /* LaunchScreen.storyboard */,
+				D1402AE5234F04DE00553C0D /* Info.plist */,
+				D1402AE6234F04DE00553C0D /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D1402AF1234F059A00553C0D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D1402B16234F0D3600553C0D /* TPProgram.h */,
+				D1402B17234F0D3600553C0D /* TPProgram.m */,
+				D1402B19234F0D4C00553C0D /* TPImageContext.h */,
+				D1402B1A234F0D4C00553C0D /* TPImageContext.m */,
+				D1402B1C234F0D5900553C0D /* TPImageFramebuffer.h */,
+				D1402B1D234F0D5900553C0D /* TPImageFramebuffer.m */,
+				D1402B402351B76D00553C0D /* TPImageModel.h */,
+				D1402B412351B76D00553C0D /* TPImageModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D1402AF2234F05B100553C0D /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				D1402AFC234F066E00553C0D /* TPDisplayPreview.h */,
+				D1402AFD234F066E00553C0D /* TPDisplayPreview.mm */,
+				D1402B4323542BD300553C0D /* TPImageTestView.h */,
+				D1402B4423542BD300553C0D /* TPImageTestView.mm */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+		D1402AF3234F05C900553C0D /* ReSources */ = {
+			isa = PBXGroup;
+			children = (
+				D1402AF6234F05EE00553C0D /* 1 */,
+				D1402AF5234F05EE00553C0D /* 2 */,
+				D1402AF4234F05EE00553C0D /* 3 */,
+				D1402AF7234F05EE00553C0D /* 4 */,
+			);
+			path = ReSources;
+			sourceTree = "<group>";
+		};
+		D1402AFF234F0ADA00553C0D /* AE */ = {
+			isa = PBXGroup;
+			children = (
+				D1402B5B2354562600553C0D /* AEConfig.h */,
+				D1402B5A2354562600553C0D /* GLProgram.cpp */,
+				D1402B582354562600553C0D /* GLProgram.hpp */,
+				D1402B492354562600553C0D /* IOS_Android_Cpp */,
+				D1402B482354562600553C0D /* LPRGPUAnimateAttr.cpp */,
+				D1402B472354562600553C0D /* LPRGPUAnimateAttr.hpp */,
+				D1402B592354562600553C0D /* LPRGPUImage.cpp */,
+				D1402B462354562600553C0D /* LPRGPUImage.hpp */,
+			);
+			path = AE;
+			sourceTree = "<group>";
+		};
+		D1402B15234F0CCB00553C0D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D1402B28234F0E4800553C0D /* TPImageUtils.h */,
+				D1402B34234F3BAC00553C0D /* TPImageConstShaderString.h */,
+				D1402B35234F3BAC00553C0D /* TPImageConstShaderString.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D1402B492354562600553C0D /* IOS_Android_Cpp */ = {
+			isa = PBXGroup;
+			children = (
+				D1402B4B2354562600553C0D /* BasicTools.h */,
+				D1402B4C2354562600553C0D /* AnimationMatrix.cpp */,
+				D1402B4D2354562600553C0D /* BasicTools.cpp */,
+				D1402B4E2354562600553C0D /* cJSON.h */,
+				D1402B4F2354562600553C0D /* GLESMath.c */,
+				D1402B502354562600553C0D /* cJSON.c */,
+				D1402B512354562600553C0D /* AE_struct.h */,
+				D1402B522354562600553C0D /* utils.hpp */,
+				D1402B4A2354562600553C0D /* utils.cpp */,
+				D1402B532354562600553C0D /* Vector.h */,
+				D1402B542354562600553C0D /* Parse_AE.cpp */,
+				D1402B552354562600553C0D /* GLESMath.h */,
+				D1402B562354562600553C0D /* AnimationMatrix.hpp */,
+				D1402B572354562600553C0D /* Parse_AE.h */,
+			);
+			path = IOS_Android_Cpp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1402AD0234F04DC00553C0D /* TPImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1402AEA234F04DE00553C0D /* Build configuration list for PBXNativeTarget "TPImage" */;
+			buildPhases = (
+				D1402ACD234F04DC00553C0D /* Sources */,
+				D1402ACE234F04DC00553C0D /* Frameworks */,
+				D1402ACF234F04DC00553C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPImage;
+			productName = TPImage;
+			productReference = D1402AD1234F04DC00553C0D /* TPImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1402AC9234F04DC00553C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TPImage;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Tapai;
+				TargetAttributes = {
+					D1402AD0234F04DC00553C0D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = D1402ACC234F04DC00553C0D /* Build configuration list for PBXProject "TPImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1402AC8234F04DC00553C0D;
+			productRefGroup = D1402AD2234F04DC00553C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1402AD0234F04DC00553C0D /* TPImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1402ACF234F04DC00553C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1402AFA234F05EE00553C0D /* 1 in Resources */,
+				D1402AF8234F05EE00553C0D /* 3 in Resources */,
+				D1402AF9234F05EE00553C0D /* 2 in Resources */,
+				D1402AFB234F05EE00553C0D /* 4 in Resources */,
+				D1402AE4234F04DE00553C0D /* LaunchScreen.storyboard in Resources */,
+				D1402AE1234F04DE00553C0D /* Assets.xcassets in Resources */,
+				D1402ADF234F04DC00553C0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1402ACD234F04DC00553C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1402B24234F0D9A00553C0D /* TPImageVideo.m in Sources */,
+				D1402B422351B76D00553C0D /* TPImageModel.m in Sources */,
+				D1402ADC234F04DC00553C0D /* ViewController.m in Sources */,
+				D1402B5F2354562600553C0D /* BasicTools.cpp in Sources */,
+				D1402B1B234F0D4C00553C0D /* TPImageContext.m in Sources */,
+				D1402B4523542BD300553C0D /* TPImageTestView.mm in Sources */,
+				D1402B18234F0D3600553C0D /* TPProgram.m in Sources */,
+				D1402B5D2354562600553C0D /* utils.cpp in Sources */,
+				D1402B1E234F0D5900553C0D /* TPImageFramebuffer.m in Sources */,
+				D1402AFE234F066E00553C0D /* TPDisplayPreview.mm in Sources */,
+				D1402B5E2354562600553C0D /* AnimationMatrix.cpp in Sources */,
+				D1402B5C2354562600553C0D /* LPRGPUAnimateAttr.cpp in Sources */,
+				D1402B36234F3BAC00553C0D /* TPImageConstShaderString.m in Sources */,
+				D1402B622354562600553C0D /* Parse_AE.cpp in Sources */,
+				D1402B27234F0DA600553C0D /* TPImagePicture.m in Sources */,
+				D1402B21234F0D6C00553C0D /* TPImageFilter.mm in Sources */,
+				D1402B612354562600553C0D /* cJSON.c in Sources */,
+				D1402AD6234F04DC00553C0D /* AppDelegate.m in Sources */,
+				D1402B602354562600553C0D /* GLESMath.c in Sources */,
+				D1402B632354562600553C0D /* LPRGPUImage.cpp in Sources */,
+				D1402AE7234F04DE00553C0D /* main.m in Sources */,
+				D1402B642354562600553C0D /* GLProgram.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1402ADD234F04DC00553C0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1402ADE234F04DC00553C0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1402AE2234F04DE00553C0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1402AE3234F04DE00553C0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1402AE8234F04DE00553C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1402AE9234F04DE00553C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1402AEB234F04DE00553C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VTSBHHTZX;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = TPImage/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OpenGLES.video.com.TPImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1402AEC234F04DE00553C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VTSBHHTZX;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = TPImage/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OpenGLES.video.com.TPImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1402ACC234F04DC00553C0D /* Build configuration list for PBXProject "TPImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1402AE8234F04DE00553C0D /* Debug */,
+				D1402AE9234F04DE00553C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1402AEA234F04DE00553C0D /* Build configuration list for PBXNativeTarget "TPImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1402AEB234F04DE00553C0D /* Debug */,
+				D1402AEC234F04DE00553C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1402AC9234F04DC00553C0D /* Project object */;
+}
